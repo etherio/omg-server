@@ -3,7 +3,8 @@
   "scripts": {
     "start": "node .",
     "development": "env NODE_ENV=development nodemon",
-    "production": "env NODE_ENV=production npm run start"
+    "production": "env NODE_ENV=production npm run start",
+    "dev": "npm run development"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
