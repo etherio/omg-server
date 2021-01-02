@@ -1,12 +1,23 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node .",
+    "development": "env NODE_ENV=development nodemon",
+    "production": "env NODE_ENV=production npm run start"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.4.2",
+    "jimp": "^0.16.1",
+    "md5": "^2.3.0",
+    "multer": "^1.4.2"
+  },
+  "private": true,
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }

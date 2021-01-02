@@ -1,0 +1,9 @@
+*.log*
+.DS_Store
+
+.cached
+
+.env
+private.key
+
+node_modules/
